@@ -1,0 +1,20 @@
+{
+  "name": "checkingwallet",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Telegram alert for any activity (swaps, sends, receives, approvals, DeFi) of tracked Solana and EVM wallets",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "test": "for f in *.js; do node --check $f || exit 1; done"
+  },
+  "dependencies": {
+    "bs58": "^5.0.0",
+    "dotenv": "^17.3.1",
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

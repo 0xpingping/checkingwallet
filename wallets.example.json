@@ -1,0 +1,7 @@
+[
+  {
+    "address": "0x0000000000000000000000000000000000000000",
+    "label": "my evm wallet",
+    "alerts": { "swap": true, "lp": false }
+  }
+]

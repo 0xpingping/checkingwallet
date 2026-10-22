@@ -1,0 +1,8 @@
+# secrets and personal data — never commit
+.env
+wallets.json
+state/
+logs/
+*.tmp
+
+node_modules/
